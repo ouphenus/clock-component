@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Component</title>
+    <style>
+        html {
+            background: url("images/html_bg.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <ouphenus-clock width="256" height="256" skinPath="./images/skins/deadpool/" radiusNumbers="95"></ouphenus-clock>
+    <ouphenus-clock width="256" height="256" skinPath="./images/skins/bb8/" radiusNumbers="94"></ouphenus-clock>
+    <ouphenus-clock width="256" height="256" skinPath="./images/skins/superman/" radiusNumbers="105"></ouphenus-clock>
+    </center>
+    <script type="module" src="ouphenus-clock.js"></script>
+</body>
+</html>
